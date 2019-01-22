@@ -39,7 +39,7 @@ task main()
 	// Auto
   clearTimer(T1);
 	startTask(AutonomousPeriod);
-	while(T1 < autoTime) {
+	while(time1[T1] < autoTime) {
 
 	}
 	stopTask(AutonomousPeriod);
@@ -47,7 +47,7 @@ task main()
 	// Teleop
 	clearTimer(T1);
 	startTask(TeleoperatedPeriod);
-	while(T1 < teleopTime) {
+	while(time1[T1] < teleopTime) {
 
 	}
 	stopTask(TeleoperatedPeriod);
