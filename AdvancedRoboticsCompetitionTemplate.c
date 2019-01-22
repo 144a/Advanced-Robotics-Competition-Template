@@ -37,7 +37,7 @@ task TeleoperatedPeriod(){
 task main()
 {
 	// Auto
-  clearTimer(T1);
+  	clearTimer(T1);
 	startTask(AutonomousPeriod);
 	while(time1[T1] < autoTime) {
 
